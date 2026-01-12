@@ -1,0 +1,47 @@
+2025-10-26 14:46:37 Loading main app package /tmp/.mount_ObsidiFAhJfZ/resources/obsidian.asar
+2025-10-26 14:46:39 Checking for update using Github
+2025-10-26 14:46:42 Success.
+2025-10-26 14:46:42 Latest version is 1.9.14
+2025-10-26 14:46:42 App is up to date.
+2025-10-26 15:46:37 Checking for update using Github
+2025-10-26 15:46:39 Success.
+2025-10-26 15:46:39 Latest version is 1.9.14
+2025-10-26 15:46:39 App is up to date.
+2025-10-26 16:46:37 Checking for update using Github
+2025-10-26 16:46:38 Success.
+2025-10-26 16:46:38 Latest version is 1.9.14
+2025-10-26 16:46:38 App is up to date.
+2025-10-26 17:20:34 Loading main app package /tmp/.mount_ObsidiCbL18u/resources/obsidian.asar
+2025-10-26 17:20:41 Checking for update using Github
+2025-10-26 17:20:42 Success.
+2025-10-26 17:20:42 Latest version is 1.9.14
+2025-10-26 17:20:42 App is up to date.
+2025-10-26 17:21:06 Checking for update using Github
+2025-10-26 17:21:06 Success.
+2025-10-26 17:21:06 Latest version is 1.9.14
+2025-10-26 17:21:06 App is up to date.
+2025-10-26 17:22:46 Loading main app package /tmp/.mount_ObsidiCQbx3H/resources/obsidian.asar
+2025-10-26 17:22:48 Checking for update using Github
+2025-10-26 17:22:48 Success.
+2025-10-26 17:22:48 Latest version is 1.9.14
+2025-10-26 17:22:48 App is up to date.
+2025-10-26 17:23:22 Loading main app package /tmp/.mount_Obsidiqzs5LL/resources/obsidian.asar
+2025-10-26 17:23:23 Checking for update using Github
+2025-10-26 17:23:24 Success.
+2025-10-26 17:23:24 Latest version is 1.9.14
+2025-10-26 17:23:24 App is up to date.
+2025-10-26 17:24:39 Loading main app package /tmp/.mount_Obsidi8UPql6/resources/obsidian.asar
+2025-10-26 17:24:41 Checking for update using Github
+2025-10-26 17:24:41 Success.
+2025-10-26 17:24:41 Latest version is 1.9.14
+2025-10-26 17:24:41 App is up to date.
+2025-10-26 17:30:57 Loading main app package /tmp/.mount_ObsidijpDfu9/resources/obsidian.asar
+2025-10-26 17:30:59 Checking for update using Github
+2025-10-26 17:31:00 Failed to check for update using Github (Unexpected non-whitespace character after JSON at position 3 (line 1 column 4))
+2025-10-26 17:31:00 Checking for update using obsidian.md
+2025-10-26 17:31:00 Failed to check for update using obsidian.md (Unexpected end of JSON input)
+2025-10-26 17:36:12 Loading main app package /tmp/.mount_Obsidi45QOXN/resources/obsidian.asar
+2025-10-26 17:36:13 Checking for update using Github
+2025-10-26 17:36:14 Failed to check for update using Github (Unexpected non-whitespace character after JSON at position 3 (line 1 column 4))
+2025-10-26 17:36:14 Checking for update using obsidian.md
+2025-10-26 17:36:15 Failed to check for update using obsidian.md (Unexpected end of JSON input)

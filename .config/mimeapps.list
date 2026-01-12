@@ -1,0 +1,41 @@
+[Default Applications]
+image/jpeg=mirage.desktop;
+image/png=mirage.desktop;
+image/bmp=mirage.desktop;
+audio/mpeg=xmms.desktop;
+audio/x-mpegurl=xmms.desktop;
+audio/ogg=xmms.desktop;
+audio/flac=xmms.desktop;
+application/x-shellscript=geany.desktop;
+application/pgp-encrypted=geany.desktop;
+application/x-iwork-keynote-sffkey=geany.desktop;
+text/plain=leafpad.desktop;
+image/x-xpixmap=mirage.desktop;
+video/x-msvideo=mpv.desktop;
+text/vnd.trolltech.linguist=mpv.desktop;
+application/pdf=qpdfview.desktop
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+application/msword=libreoffice-writer.desktop;
+application/vnd.ms-excel=libreoffice-calc.desktop;
+application/vnd.ms-powerpoint=libreoffice-impress.desktop;
+application/vnd.oasis.opendocument.presentation=libreoffice-impress.desktop;
+application/vnd.oasis.opendocument.spreadsheet=libreoffice-calc.desktop;
+application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;
+application/vnd.openxmlformats-officedocument.presentationml.slideshow=libreoffice-impress.desktop;
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;
+text/html=brave-browser.desktop
+x-scheme-handler/http=brave-browser.desktop
+x-scheme-handler/https=brave-browser.desktop
+x-scheme-handler/about=brave-browser.desktop
+x-scheme-handler/unknown=brave-browser.desktop
+x-scheme-handler/webcal=brave-browser.desktop
+x-scheme-handler/mailto=brave-browser.desktop
+x-scheme-handler/obsidian=obsidian.desktop
+x-scheme-handler/tg=userapp-64Gram Desktop-XLFBF3.desktop
+x-scheme-handler/tonsite=userapp-64Gram Desktop-HZ17E3.desktop
+inode/directory=nemo.desktop
+application/x-gnome-saved-search=nemo.desktop
+
+[Added Associations]
+x-scheme-handler/tg=userapp-64Gram Desktop-XLFBF3.desktop;
+x-scheme-handler/tonsite=userapp-64Gram Desktop-HZ17E3.desktop;

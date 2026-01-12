@@ -1,0 +1,32 @@
+* {
+    /* fundos */
+    bg:                 #1A1B26cc;
+    win-bg:             #24283bcc;
+
+    /* texto */
+    fg:                 #a9b1d6;
+    fg-col:             #a9b1d6;
+    grey:               #565f89;
+
+    /* seleção */
+    selected-bg:        #7398E7;
+    selected-fg:        #fff;
+
+    /* destaques */
+    highlight-bg:       #7aa2f799;
+    urgent:             #f7768e55;
+
+    /* bordas / separadores */
+    border-col:         #414868;
+    separatorcolor:     #414868;
+
+    /* cores semânticas */
+    blue:               #7aa2f7;
+    green:              #9ece6a;
+    red:                #f7768e;
+
+    /* extras coerentes com Tokyonight */
+    cyan:               #7dcfff;
+    yellow:             #e0af68;
+    magenta:            #bb9af7;
+}

@@ -1,0 +1,48 @@
+2 screens: Window-Maximized=true
+State=AAAA/wAAAAD9AAAAAAAAA/wAAAHsAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+2 screens: Height=548
+2 screens: Width=1020
+2 screens: Window-Maximized=true
+2 screens: XPosition=0
+2 screens: YPosition=122
+HDMI-1 eDP-1=eDP-1
+State=AAAA/wAAAAD9AAAAAAAAA/wAAAHsAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+IconSize=16
+ToolButtonStyle=IconOnly
+
+[Recent Files]
+File1[$e]=$HOME/Documents/Everythingineed/a. PDFs didáticos/x. Listas, apostilas & simulados/x. FÍSICA ITA - EDIÇÃO HISTÓRICA/termologia_109.pdf
+File10[$e]=$HOME/Documents/Everythingineed/a. PDFs didáticos/1. Mat/x. Rufino/Rufino - Vol. 3.pdf
+File2[$e]=$HOME/Documents/Everythingineed/a. PDFs didáticos/x. Listas, apostilas & simulados/x. FÍSICA ITA - EDIÇÃO HISTÓRICA/vestibulares_fisica_ITA.pdf
+File3[$e]=$HOME/Documents/Everythingineed/a. PDFs didáticos/x. Listas, apostilas & simulados/x. Estratégia/w. Estratégia Militar - ITA/Física/(Lista-Livro) Fenômenos Ondulatórios e Acústica.pdf
+File4[$e]=$HOME/Downloads/Telegram Desktop/Prova_Discursiva_de_Matemática.pdf
+File5[$e]=$HOME/Desktop/Cartao_Aluno_BA29980720300782.pdf
+File6[$e]=$HOME/Downloads/Telegram Desktop/Prompt de correção de redação por IA (1).pdf
+File7[$e]=$HOME/Downloads/Telegram Desktop/Lista_LivroTermodinâmica_II_Máquinas_Térmicas_e_Entropia.pdf
+File8[$e]=$HOME/Documents/Everythingineed/a. PDFs didáticos/2. Fís/x. Young e Freedman/Física_2_Termodinâmica_e_Ondas_Sears_&_Zemansky;_Young_&_Freedman.pdf
+File9[$e]=$HOME/Documents/Everythingineed/a. PDFs didáticos/2. Fís/x. Moysés/Nussenzveig - Fluidos, Oscilações e Ondas, Calor.pdf
+Name1[$e]=termologia_109.pdf
+Name10[$e]=Rufino - Vol. 3.pdf
+Name2[$e]=vestibulares_fisica_ITA.pdf
+Name3[$e]=(Lista-Livro) Fenômenos Ondulatórios e Acústica.pdf
+Name4[$e]=Prova_Discursiva_de_Matemática.pdf
+Name5[$e]=Cartao_Aluno_BA29980720300782.pdf
+Name6[$e]=Prompt de correção de redação por IA (1).pdf
+Name7[$e]=Lista_LivroTermodinâmica_II_Máquinas_Térmicas_e_Entropia.pdf
+Name8[$e]=Física_2_Termodinâmica_e_Ondas_Sears_&_Zemansky;_Young_&_Freedman.pdf
+Name9[$e]=Nussenzveig - Fluidos, Oscilações e Ondas, Calor.pdf
+
+[Toolbar mainToolBar]
+IconSize=16
+ToolButtonStyle=IconOnly
+
+[UiSettings]
+ColorScheme=

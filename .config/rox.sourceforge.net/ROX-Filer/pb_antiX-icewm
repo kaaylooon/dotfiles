@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<pinboard>
+  <backdrop style="Stretched">/usr/share/wallpaper/antiX3.jpg</backdrop>
+  <icon x="34" y="74" label="Files">/usr/share/applications/file-manager.desktop</icon>
+  <icon x="34" y="148" label="Help">/usr/share/applications/antiX-docs.desktop</icon>
+</pinboard>

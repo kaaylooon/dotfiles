@@ -1,0 +1,125 @@
+[2025-10-03 12:18:55.493] [info]  [project] Fetching org_ce42711b-5aa9-4ff7-93ba-204b6454d229
+[2025-10-03 12:18:55.762] [info]  [project loader] Loading project: My first project proj_373dfe2453b9464a9f8fb04d838baae6
+[2025-10-03 12:18:55.823] [info]  [getAllRemoteFiles] start fetching remote backend workspaces for project proj_373dfe2453b9464a9f8fb04d838baae6 remoteId: proj_org_ce42711b-5aa9-4ff7-93ba-204b6454d229
+[2025-10-03 12:18:55.825] [info]  [remoteBackendProjects] Fetching remote workspaces for teamId=org_ce42711b-5aa9-4ff7-93ba-204b6454d229 teamProjectId=proj_org_ce42711b-5aa9-4ff7-93ba-204b6454d229
+[2025-10-03 12:18:56.047] [info]  [remoteBackendProjects] Fetched 0 remote workspaces
+[2025-10-03 12:18:56.049] [info]  [getAllRemoteFiles] found allPulledBackendProjectsForRemoteId: 0 and allFetchedRemoteBackendProjectsForRemoteId: 0 for remoteId: proj_org_ce42711b-5aa9-4ff7-93ba-204b6454d229
+[2025-10-03 12:18:56.055] [info]  [getAllRemoteFiles] found workspacesWithBackendProjects: 0
+[2025-10-03 12:18:56.057] [info]  [getAllRemoteFiles] get 0 unsynced files
+[2025-10-03 12:18:56.077] [info]  [remote files] remote files loaded for project ui 0
+[2025-10-03 12:19:03.593] [debug] [FileSystemDriver] Writing to /projects/prj_d4e0a3e6bad24670b92248c5adeea407/meta.json
+[2025-10-03 12:19:03.596] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/meta.json.8ce11148-f157-41c3-af9f-18167d257916.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/meta.json
+[2025-10-03 12:19:03.603] [info]  [sync] Created backend project prj_d4e0a3e6bad24670b92248c5adeea407
+[2025-10-03 12:19:03.605] [debug] [sync] Activated project prj_d4e0a3e6bad24670b92248c5adeea407
+[2025-10-03 12:19:03.607] [debug] [FileSystemDriver] Writing to /projects/prj_d4e0a3e6bad24670b92248c5adeea407/meta.json
+[2025-10-03 12:19:03.611] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/meta.json.5144b801-7415-432d-b4ff-7c14cb7d8c63.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/meta.json
+[2025-10-03 12:19:03.629] [debug] [FileSystemDriver] Writing to /projects/prj_d4e0a3e6bad24670b92248c5adeea407/head.json
+[2025-10-03 12:19:03.633] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/head.json.b0f69506-3859-419a-8ccd-dc1ed4dbf1fd.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/head.json
+[2025-10-03 12:19:03.641] [debug] [FileSystemDriver] Writing to /projects/prj_d4e0a3e6bad24670b92248c5adeea407/branches/master.json
+[2025-10-03 12:19:03.644] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/branches/master.json.1ee18d8f-709a-4338-8467-9c8759e785c7.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/branches/master.json
+[2025-10-03 12:19:03.673] [debug] [FileSystemDriver] Writing to /projects/prj_d4e0a3e6bad24670b92248c5adeea407/blobs/5d/e8ce8265e69e1cc30e0e838a15136b1bfbe656
+[2025-10-03 12:19:03.675] [debug] [FileSystemDriver] Writing to /projects/prj_d4e0a3e6bad24670b92248c5adeea407/blobs/b6/0d82ad57b7d71ec85856015adcadedd696f90f
+[2025-10-03 12:19:03.679] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/blobs/5d/e8ce8265e69e1cc30e0e838a15136b1bfbe656.defe1bb6-05a1-4f51-8008-361c99210ad7.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/blobs/5d/e8ce8265e69e1cc30e0e838a15136b1bfbe656
+[2025-10-03 12:19:03.682] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/blobs/b6/0d82ad57b7d71ec85856015adcadedd696f90f.ce0b1f5e-e949-49fb-a4d4-545501ece63e.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/blobs/b6/0d82ad57b7d71ec85856015adcadedd696f90f
+[2025-10-03 12:19:03.686] [info]  [sync] Staged My first collection, Base Environment
+[2025-10-03 12:19:03.694] [debug] [FileSystemDriver] Writing to /projects/prj_d4e0a3e6bad24670b92248c5adeea407/branches/master.json
+[2025-10-03 12:19:03.697] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/branches/master.json.92ba3b25-3f4c-47b6-8601-cd4f0e94389b.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/branches/master.json
+[2025-10-03 12:19:03.701] [debug] [FileSystemDriver] Writing to /projects/prj_d4e0a3e6bad24670b92248c5adeea407/snapshots/058cc99459aa5ee3db90ab0ecc0ca805230f2bb0.json
+[2025-10-03 12:19:03.704] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/snapshots/058cc99459aa5ee3db90ab0ecc0ca805230f2bb0.json.c54a9b08-5c06-4ba7-8a42-9e81eb090b80.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/snapshots/058cc99459aa5ee3db90ab0ecc0ca805230f2bb0.json
+[2025-10-03 12:19:03.708] [info]  [sync] Created commit 'Initial Snapshot' on master
+[2025-10-03 12:19:03.709] [info]  [sync] Created commit 058cc99459aa5ee3db90ab0ecc0ca805230f2bb0 (Initial Snapshot)
+[2025-10-03 12:19:05.013] [debug] [sync] Activated project prj_d4e0a3e6bad24670b92248c5adeea407
+[2025-10-03 12:19:05.016] [debug] [FileSystemDriver] Writing to /projects/prj_d4e0a3e6bad24670b92248c5adeea407/meta.json
+[2025-10-03 12:19:05.022] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/meta.json.e308179d-b1ee-4e18-9da4-ecf238443367.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/meta.json
+[2025-10-03 12:19:05.255] [info]  [sync] Fetching team member keys { teamId: 'org_ce42711b-5aa9-4ff7-93ba-204b6454d229' }
+[2025-10-03 12:19:05.482] [info]  [crypt] Using Native AES Key Generation
+[2025-10-03 12:19:05.740] [info]  [sync] Created remote project prj_d4e0a3e6bad24670b92248c5adeea407 (My first collection)
+[2025-10-03 12:19:05.744] [debug] [FileSystemDriver] Writing to /projects/prj_d4e0a3e6bad24670b92248c5adeea407/meta.json
+[2025-10-03 12:19:05.749] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/meta.json.5b9cb5ee-7cd5-4f03-b069-d0cb495a4266.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_d4e0a3e6bad24670b92248c5adeea407/meta.json
+[2025-10-03 12:19:06.681] [debug] [FileSystemDriver] Writing to /projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/meta.json
+[2025-10-03 12:19:06.684] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/meta.json.8937538a-58ac-4bf9-ab2e-bc65aa9114c9.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/meta.json
+[2025-10-03 12:19:06.687] [info]  [sync] Created backend project prj_c91d09ffa65d49b79ccd74b1c3c5ed88
+[2025-10-03 12:19:06.689] [debug] [sync] Activated project prj_c91d09ffa65d49b79ccd74b1c3c5ed88
+[2025-10-03 12:19:06.691] [debug] [FileSystemDriver] Writing to /projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/meta.json
+[2025-10-03 12:19:06.694] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/meta.json.eeb1543a-4381-4ca6-9f00-b69658740edd.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/meta.json
+[2025-10-03 12:19:06.731] [debug] [FileSystemDriver] Writing to /projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/head.json
+[2025-10-03 12:19:06.736] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/head.json.40d5582d-2629-437a-9367-57b9e50f05af.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/head.json
+[2025-10-03 12:19:06.746] [debug] [FileSystemDriver] Writing to /projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/branches/master.json
+[2025-10-03 12:19:06.749] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/branches/master.json.3dc1fab3-d22f-46b2-946c-8e108a433535.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/branches/master.json
+[2025-10-03 12:19:06.769] [debug] [FileSystemDriver] Writing to /projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/blobs/d8/ead2e3fa8e0b2e3fa9c43f887ef1dbba65d146
+[2025-10-03 12:19:06.773] [debug] [FileSystemDriver] Writing to /projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/blobs/37/e1fbe28a7b6d18145b89d6aa2ad0b1303f4a7c
+[2025-10-03 12:19:06.786] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/blobs/d8/ead2e3fa8e0b2e3fa9c43f887ef1dbba65d146.62260b4d-b652-4263-8b06-e4db77fc5211.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/blobs/d8/ead2e3fa8e0b2e3fa9c43f887ef1dbba65d146
+[2025-10-03 12:19:06.792] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/blobs/37/e1fbe28a7b6d18145b89d6aa2ad0b1303f4a7c.47b8fb91-1006-43ac-94e1-0b52c1f3206f.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/blobs/37/e1fbe28a7b6d18145b89d6aa2ad0b1303f4a7c
+[2025-10-03 12:19:06.800] [info]  [sync] Staged My first collection, Base Environment
+[2025-10-03 12:19:06.803] [info]  [sync] Uploaded 2/2 blobs in batch 0.37 KB
+[2025-10-03 12:19:06.805] [info]  [sync] Finished uploading 2/2 blobs
+[2025-10-03 12:19:06.890] [debug] [FileSystemDriver] Writing to /projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/branches/master.json
+[2025-10-03 12:19:06.893] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/branches/master.json.dc70e625-2688-4196-9965-815793511204.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/branches/master.json
+[2025-10-03 12:19:06.899] [debug] [FileSystemDriver] Writing to /projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/snapshots/e03440dfc96244752ed4776c6f514b6b7375fc88.json
+[2025-10-03 12:19:06.902] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/snapshots/e03440dfc96244752ed4776c6f514b6b7375fc88.json.a2b82011-70bc-4df1-b69f-a5a515c599ce.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/snapshots/e03440dfc96244752ed4776c6f514b6b7375fc88.json
+[2025-10-03 12:19:06.909] [info]  [sync] Created commit 'Initial Snapshot' on master
+[2025-10-03 12:19:06.911] [info]  [sync] Created commit e03440dfc96244752ed4776c6f514b6b7375fc88 (Initial Snapshot)
+[2025-10-03 12:19:07.085] [debug] [sync] Activated project prj_c91d09ffa65d49b79ccd74b1c3c5ed88
+[2025-10-03 12:19:07.088] [debug] [FileSystemDriver] Writing to /projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/meta.json
+[2025-10-03 12:19:07.090] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/meta.json.6d7415ab-98cc-4d5b-b785-c11a14e938a0.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/meta.json
+[2025-10-03 12:19:07.119] [info]  [sync] Failed to query snapshotsPush [
+  {
+    message: 'project not found',
+    locations: [ { line: 3, column: 11 } ],
+    path: [ 'snapshotsCreate' ]
+  }
+]
+[2025-10-03 12:19:07.132] [warn]  Failed to initialize VCS Error: Failed to query snapshotsPush: project not found
+    at Wy._runGraphQL (https://insomnia-app.local/assets/organization.sync-CW0bPsxC.js:703:5299)
+    at async Wy._queryPushSnapshots (https://insomnia-app.local/assets/organization.sync-CW0bPsxC.js:740:300)
+    at async Wy.push (https://insomnia-app.local/assets/organization.sync-CW0bPsxC.js:703:2605)
+    at async AM (https://insomnia-app.local/assets/organization.sync-CW0bPsxC.js:24:186097)
+    at async wZe (https://insomnia-app.local/assets/organization.sync-CW0bPsxC.js:819:45551)
+    at async https://insomnia-app.local/assets/chunk-EF7DTUVF-DS6_gFtf.js:14:5314
+    at async https://insomnia-app.local/assets/chunk-EF7DTUVF-DS6_gFtf.js:11:9534
+    at async Promise.all (index 0)
+    at async no (https://insomnia-app.local/assets/chunk-EF7DTUVF-DS6_gFtf.js:11:9829)
+    at async Promise.all (index 3)
+    at async bi (https://insomnia-app.local/assets/chunk-EF7DTUVF-DS6_gFtf.js:14:5218)
+    at async ba (https://insomnia-app.local/assets/chunk-EF7DTUVF-DS6_gFtf.js:11:7051)
+    at async Ra (https://insomnia-app.local/assets/chunk-EF7DTUVF-DS6_gFtf.js:11:6579)
+    at async ao (https://insomnia-app.local/assets/chunk-EF7DTUVF-DS6_gFtf.js:11:8622)
+    at async Ye (https://insomnia-app.local/assets/chunk-EF7DTUVF-DS6_gFtf.js:10:26206)
+    at async Cr (https://insomnia-app.local/assets/chunk-EF7DTUVF-DS6_gFtf.js:10:26787)
+    at async an (https://insomnia-app.local/assets/chunk-EF7DTUVF-DS6_gFtf.js:10:20797)
+    at async Te (https://insomnia-app.local/assets/chunk-EF7DTUVF-DS6_gFtf.js:10:18182)
+    at async Fe (https://insomnia-app.local/assets/chunk-EF7DTUVF-DS6_gFtf.js:10:26048)
+    at async Object.on [as fetch] (https://insomnia-app.local/assets/chunk-EF7DTUVF-DS6_gFtf.js:10:22038)
+    at async https://insomnia-app.local/assets/chunk-EF7DTUVF-DS6_gFtf.js:35:6165
+    at async https://insomnia-app.local/assets/chunk-EF7DTUVF-DS6_gFtf.js:35:7771
+[2025-10-03 12:19:07.221] [warn]  You rendered descendant <Routes> (or called `useRoutes()`) at "/organization/org_ce42711b-5aa9-4ff7-93ba-204b6454d229/project/proj_373dfe2453b9464a9f8fb04d838baae6/workspace/wrk_6b1c30ec6af6405bbffebdb9fb2edce2/debug" (under <Route path="debug">) but the parent route path has no trailing "*". This means if you navigate deeper, the parent won't match anymore and therefore the child routes will never render.
+
+Please change the parent <Route path="debug"> to <Route path="debug/*">.
+[2025-10-03 12:19:08.004] [info]  [sync] Fetching team member keys { teamId: 'org_ce42711b-5aa9-4ff7-93ba-204b6454d229' }
+[2025-10-03 12:19:08.244] [info]  [crypt] Using Native AES Key Generation
+[2025-10-03 12:19:08.447] [info]  [sync] Created remote project prj_c91d09ffa65d49b79ccd74b1c3c5ed88 (My first collection)
+[2025-10-03 12:19:08.449] [debug] [FileSystemDriver] Writing to /projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/meta.json
+[2025-10-03 12:19:08.453] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/meta.json.ad8bc2a8-b7f0-4810-854b-043bfcca34cc.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/meta.json
+[2025-10-03 12:19:08.703] [info]  [remoteBackendProjects] Fetching remote workspaces for teamId=org_ce42711b-5aa9-4ff7-93ba-204b6454d229 teamProjectId=proj_org_ce42711b-5aa9-4ff7-93ba-204b6454d229
+[2025-10-03 12:19:08.713] [info]  [remoteBackendProjects] Fetching remote workspaces for teamId=org_ce42711b-5aa9-4ff7-93ba-204b6454d229 teamProjectId=proj_org_ce42711b-5aa9-4ff7-93ba-204b6454d229
+[2025-10-03 12:19:08.731] [info]  [remoteBackendProjects] Fetching remote workspaces for teamId=org_ce42711b-5aa9-4ff7-93ba-204b6454d229 teamProjectId=proj_org_ce42711b-5aa9-4ff7-93ba-204b6454d229
+[2025-10-03 12:19:08.935] [info]  [remoteBackendProjects] Fetched 2 remote workspaces
+[2025-10-03 12:19:08.948] [info]  [remoteBackendProjects] Fetched 2 remote workspaces
+[2025-10-03 12:19:08.975] [info]  [remoteBackendProjects] Fetched 2 remote workspaces
+[2025-10-03 12:19:09.395] [info]  [sync] Uploaded 2/2 blobs in batch 0.37 KB
+[2025-10-03 12:19:09.398] [info]  [sync] Finished uploading 2/2 blobs
+[2025-10-03 12:19:09.629] [debug] [FileSystemDriver] Writing to /projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/snapshots/e03440dfc96244752ed4776c6f514b6b7375fc88.json
+[2025-10-03 12:19:09.633] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/snapshots/e03440dfc96244752ed4776c6f514b6b7375fc88.json.e601144f-b6f7-41f0-a4c2-5310a39d052a.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/snapshots/e03440dfc96244752ed4776c6f514b6b7375fc88.json
+[2025-10-03 12:19:09.639] [info]  [sync] Pushed commits e03440dfc96244752ed4776c6f514b6b7375fc88
+[2025-10-03 12:19:09.707] [warn]  You rendered descendant <Routes> (or called `useRoutes()`) at "/organization/org_ce42711b-5aa9-4ff7-93ba-204b6454d229/project/proj_373dfe2453b9464a9f8fb04d838baae6/workspace/wrk_4e8bc1fb4c1c4ec29f20961644c8fa33/debug" (under <Route path="debug">) but the parent route path has no trailing "*". This means if you navigate deeper, the parent won't match anymore and therefore the child routes will never render.
+
+Please change the parent <Route path="debug"> to <Route path="debug/*">.
+[2025-10-03 12:19:10.600] [info]  [remoteBackendProjects] Fetching remote workspaces for teamId=org_ce42711b-5aa9-4ff7-93ba-204b6454d229 teamProjectId=proj_org_ce42711b-5aa9-4ff7-93ba-204b6454d229
+[2025-10-03 12:19:10.617] [info]  [remoteBackendProjects] Fetching remote workspaces for teamId=org_ce42711b-5aa9-4ff7-93ba-204b6454d229 teamProjectId=proj_org_ce42711b-5aa9-4ff7-93ba-204b6454d229
+[2025-10-03 12:19:10.966] [info]  [remoteBackendProjects] Fetched 2 remote workspaces
+[2025-10-03 12:19:10.970] [info]  [remoteBackendProjects] Fetched 2 remote workspaces
+[2025-10-03 12:19:51.430] [info]  [remoteBackendProjects] Fetching remote workspaces for teamId=org_ce42711b-5aa9-4ff7-93ba-204b6454d229 teamProjectId=proj_org_ce42711b-5aa9-4ff7-93ba-204b6454d229
+[2025-10-03 12:19:51.639] [info]  [remoteBackendProjects] Fetched 2 remote workspaces
+[2025-10-03 12:19:51.911] [debug] [sync] Activated project prj_c91d09ffa65d49b79ccd74b1c3c5ed88
+[2025-10-03 12:19:51.915] [debug] [FileSystemDriver] Writing to /projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/meta.json
+[2025-10-03 12:19:51.918] [debug] [FileSystemDriver] Writing to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/meta.json.27e6ef4d-4e20-4fcc-8b87-7548ecb48a7a.tmp then renaming to /home/kaylon/.config/Insomnia/version-control/projects/prj_c91d09ffa65d49b79ccd74b1c3c5ed88/meta.json

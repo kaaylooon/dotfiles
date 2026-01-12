@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<special-files>
+  <rule match="/home/demo/.config/rox.sourceforge.net/SendTo/.inode_directory/Archive-Create">
+    <icon>/usr/share/icons/papirus-antix/48x48/apps/file-roller.png</icon>
+  </rule>
+  <rule match="/home/demo/.config/rox.sourceforge.net/SendTo/Encrypt-Decrypt">
+    <icon>/usr/share/icons/papirus-antix/48x48/mimetypes/encrypted.png</icon>
+  </rule>
+  <rule match="/home/demo/.config/rox.sourceforge.net/SendTo/.application_x-compressed-tar/Encrypt-Decrypt">
+    <icon>/usr/share/icons/papirus-antix/48x48/mimetypes/encrypted.png</icon>
+  </rule>
+  <rule match="/usr/share/applications/antix/antiX-docs.desktop">
+    <icon>/usr/share/icons/papirus-antix/48x48/apps/help-browser.png</icon>
+  </rule>
+  <rule match="/home/demo/.config/rox.sourceforge.net/SendTo/.application_octet-stream/Encrypt-Decrypt">
+    <icon>/usr/share/icons/papirus-antix/48x48/mimetypes/encrypted.png</icon>
+  </rule>
+  <rule match="/usr/local/bin/antiX-FileManager.sh">
+    <icon>/usr/share/icons/papirus-antix/48x48/places/folder.png</icon>
+  </rule>
+  <rule match="/home/demo/.config/rox.sourceforge.net/SendTo/Archive-Extract">
+    <icon>/usr/share/icons/papirus-antix/48x48/mimetypes/zip.png</icon>
+  </rule>
+  <rule match="/home/demo/.config/rox.sourceforge.net/SendTo/.inode_directory/Encrypt-Decrypt">
+    <icon>/usr/share/icons/papirus-antix/48x48/mimetypes/encrypted.png</icon>
+  </rule>
+  <rule match="/home/demo/.config/rox.sourceforge.net/SendTo/.application_x-compressed-tar/Archive-Extract">
+    <icon>/usr/share/icons/papirus-antix/48x48/mimetypes/application-x-zip.png</icon>
+  </rule>
+  <rule match="/home/demo/.config/rox.sourceforge.net/SendTo/Archive-Create">
+    <icon>/usr/share/icons/papirus-antix/48x48/apps/file-roller.png</icon>
+  </rule>
+</special-files>

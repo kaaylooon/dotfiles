@@ -1,0 +1,20 @@
+
+[roxterm profile]
+font=0xProto Nerd Font Mono 13
+scrollback_lines=10000
+always_show_tabs=0
+height=20
+scroll_on_keystroke=1
+colour_scheme=Default
+background_type=2
+saturation=0,325635
+width=90
+hide_menubar=1
+maximise=0
+show_add_tab_btn=1
+win_title=
+middle_click_tab=1
+show_tab_status=0
+scrollbar_pos=1
+scroll_on_output=1
+cursor_shape=0

@@ -1,0 +1,20 @@
+{
+  "id": "058cc99459aa5ee3db90ab0ecc0ca805230f2bb0",
+  "name": "Initial Snapshot",
+  "state": [
+    {
+      "key": "wrk_6b1c30ec6af6405bbffebdb9fb2edce2",
+      "name": "My first collection",
+      "blob": "5de8ce8265e69e1cc30e0e838a15136b1bfbe656"
+    },
+    {
+      "key": "env_61de3ffc2dce02e72b06543abded4a48668bd5c7",
+      "name": "Base Environment",
+      "blob": "b60d82ad57b7d71ec85856015adcadedd696f90f"
+    }
+  ],
+  "author": "",
+  "parent": "0000000000000000000000000000000000000000",
+  "created": "2025-10-03T15:19:03.693Z",
+  "description": ""
+}

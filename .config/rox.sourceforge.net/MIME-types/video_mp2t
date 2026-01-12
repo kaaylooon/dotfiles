@@ -1,0 +1,2 @@
+#! /bin/sh
+exec mpv --player-operation-mode=pseudo-gui "$@"

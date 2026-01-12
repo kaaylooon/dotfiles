@@ -1,0 +1,372 @@
+[AdvancedRename Input]
+Pattern History List=\\0
+
+[Album Settings]
+Album Collections=Category,Friends,Holidays,Miscellaneous,Nature,Party,Todo,Travel
+Album Monitoring=false
+Album Sort Role=0
+All Groups Open=false
+Default Icon Size=142
+Default Tree Face Size=48
+Default Tree Icon Size=22
+Icon Show Aspect Ratio=false
+Icon Show Color Label=true
+Icon Show Comments=true
+Icon Show Coordinates=true
+Icon Show Date=true
+Icon Show Fullscreen=true
+Icon Show Image Format=true
+Icon Show Modification Date=false
+Icon Show Name=true
+Icon Show Overlays=true
+Icon Show Pick Label=true
+Icon Show Rating=true
+Icon Show Resolution=false
+Icon Show Size=false
+Icon Show Tags=true
+Icon Show Title=true
+IconView Font=Sans Serif,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Image Group Mode=2
+Image Group Sort Order=0
+Image Sort Order=0
+Image Sorting=0
+Item Left Click Action=0
+Preview Convert To Eight Bit=false
+Preview Image Smooth Scaled=true
+Preview Load Full Image Size=false
+Preview Scale Fit To Window=false
+Preview Show Icons=true
+Rating Filter Condition=0
+Recursive Albums=false
+Recursive Tags=true
+Show Album ToolTips=false
+Show Folder Tree View Items Count=false
+Show Thumbbar=true
+Show ToolTips=false
+Sidebar Title Style=2
+Theme=Default
+ToolTips Font=Sans Serif,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+ToolTips Show Album Caption=true
+ToolTips Show Album Category=true
+ToolTips Show Album Collection=true
+ToolTips Show Album Date=true
+ToolTips Show Album Name=false
+ToolTips Show Album Preview=false
+ToolTips Show Album Title=true
+ToolTips Show Audio Bit Rate=true
+ToolTips Show Audio Channel Type=true
+ToolTips Show Audio Codec=true
+ToolTips Show Comments=true
+ToolTips Show File Date=false
+ToolTips Show File Name=true
+ToolTips Show File Size=false
+ToolTips Show Image AR=true
+ToolTips Show Image Dim=true
+ToolTips Show Image Type=false
+ToolTips Show Label Rating=true
+ToolTips Show Photo Date=true
+ToolTips Show Photo Expo=true
+ToolTips Show Photo Flash=false
+ToolTips Show Photo Focal=true
+ToolTips Show Photo Lens=true
+ToolTips Show Photo Make=true
+ToolTips Show Photo Mode=true
+ToolTips Show Photo WB=false
+ToolTips Show Tags=true
+ToolTips Show Titles=true
+ToolTips Show Video Aspect Ratio=true
+ToolTips Show Video Codec=true
+ToolTips Show Video Duration=true
+ToolTips Show Video Frame Rate=true
+TreeView Font=Sans Serif,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Update Type=0
+
+[Database Settings]
+Database Connectoptions=
+Database Encrypted Password=AwKNjY0=
+Database Hostname=
+Database Name=/home/kaylon/Pictures/
+Database Name Face=/home/kaylon/Pictures/
+Database Name Similarity=/home/kaylon/Pictures/
+Database Name Thumbnails=/home/kaylon/Pictures/
+Database Port=-1
+Database Type=QSQLITE
+Database Username=
+Database WAL Mode=false
+Internal Database Server=false
+Internal Database Server Mysql Admin Command=
+Internal Database Server Mysql Init Command=
+Internal Database Server Mysql Server Command=
+Internal Database Server Mysql Upgrade Command=
+Internal Database Server Path=
+
+[Delete Dialog]
+2 screens: Height=550
+2 screens: Width=863
+
+[Face Management Settings]
+Face Already Scanned Handling=0
+Face Detection Accuracy=1000
+Face Detection Model=0
+Face Detection Size=3
+Face Recognition Accuracy=7
+Face Recognition Model=0
+Face Scan Task=0
+Face Use Full CPU=false
+
+[Find Duplicates View]
+Last maximum similarity=100
+Last minimum similarity=90
+Last reference image method=0
+Last search album tag relation=0
+Last search results restriction=0
+Lower bound for minimum similarity=40
+
+[General Settings]
+Application Font=Sans Serif,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Application Style=fusion
+Apply Sidebar Changes Directly=false
+Automatically start a background face recognition scan when a new face is tagged=false
+Clean core DB At Start=false
+Detect faces in newly added images=false
+Draw Frames To Grouped Items=true
+Expand New Current Item On Click=true
+Icon Theme=
+Scan At Start=true
+Scroll Current Item To Center=false
+Select First Album Item=true
+Show Only Face Tags For Assigning Name=true
+Show Permanent Delete Dialog=true
+Show Splash=true
+Show Trash Delete Dialog=false
+String Comparison Type=0
+Use Native File Dialog=false
+Use Trash=true
+Version=8.8.0
+
+[Grouping Behaviour]
+Do BQM operations on all=2
+Do Import Export operations on all=2
+Do light table operations on all=2
+Do metadata operations on all=2
+Do slideshow operations on all=2
+Operate tools on all=2
+Rename all=2
+
+[ImageViewer Settings]
+UseRawImportTool=false
+
+[LightTable Settings]
+Clear On Close=false
+Horizontal Splitter State=AAAA/wAAAAEAAAAD/////wAACqr/////Af////8AAAAAAQE=
+Navigate By Pair=false
+Show Thumbbar=true
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAANwAAAAwPwBAAAAAfsAAAAmAGwAaQBnAGgAdAB0AGEAYgBsAGUAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAAA3AAAABXAP///wAAA3AAAADpAAAABAAAAAQAAAAIAAAACPwAAAAA
+
+[LightTable Settings][Left Sidebar]
+ActiveTab=0
+DigikamProperties Expanded=true
+FileProperties Expanded=true
+ItemProperties Expanded=true
+LocationProperties Expanded=true
+Minimized=true
+PhotographProperties Expanded=true
+RestoreSize=-1
+RightsProperties Expanded=true
+TagsProperties Expanded=true
+VideoProperties Expanded=true
+
+[LightTable Settings][Left Sidebar][Captions Tags Properties Tab]
+Contact Expanded=true
+ItemDescEdit Tab=0
+ItemDescEditTab CaptionsLang=x-default
+ItemDescEditTab SearchBarCaseSensitive=0
+ItemDescEditTab TagCheckViewCurrentIndex=
+ItemDescEditTab TagCheckViewExpansion=0
+ItemDescEditTab TagCheckViewRestoreChecked=false
+ItemDescEditTab TagCheckViewSelection=
+ItemDescEditTab TagCheckViewSortColumn=0
+ItemDescEditTab TagCheckViewSortOrder=0
+ItemDescEditTab TagCheckViewToggle Auto Tags=0
+ItemDescEditTab TitleLang=x-default
+Location Expanded=true
+Rights Expanded=true
+Subjects Expanded=true
+
+[LightTable Settings][Left Sidebar][Color Properties Tab]
+Current ICC Item=
+Histogram Channel=0
+Histogram Scale=1
+ICC Level=2
+ImagePropertiesColors Tab=0
+
+[LightTable Settings][Left Sidebar][GPS Properties Tab]
+Sort Order=0
+Web GPS Locator=0
+
+[LightTable Settings][Left Sidebar][GPS Properties Tab][Map Widget]
+Backend=marble
+Center=geo:0,0
+GoogleMaps Map Type=ROADMAP
+GoogleMaps Show Map Type Control=true
+GoogleMaps Show Navigation Control=true
+GoogleMaps Show Scale Control=true
+Marble Map Theme=earth/openstreetmap/openstreetmap.dgml
+Marble Projection=spherical
+Marble Show Compass=false
+Marble Show Navigation=true
+Marble Show Overview Map=false
+Marble Show Scale Bar=false
+Marker Grouping Radius=1
+Mouse Mode=0
+Preview Grouped Items=true
+Preview Single Items=true
+Show Thumbnails=true
+Show numbers on items=true
+Sticky Mode State=false
+Thumbnail Grouping Radius=30
+Thumbnail Size=60
+Zoom=marble:900
+
+[LightTable Settings][Left Sidebar][Metadata Properties Tab]
+Current EXIF Item=
+Current ExifTool Item=
+Current IPTC Item=
+Current MAKERNOTE Item=
+Current XMP Item=
+EXIF Level=0
+EXIFTOOL Level=0
+IPTC Level=0
+ImagePropertiesMetaData Tab=0
+MAKERNOTE Level=0
+XMP Level=0
+
+[LightTable Settings][Left Sidebar][Version Properties Tab]
+Version Properties Tab=versions
+Version Properties View Mode=2
+
+[LightTable Settings][Right Sidebar]
+ActiveTab=0
+DigikamProperties Expanded=true
+FileProperties Expanded=true
+ItemProperties Expanded=true
+LocationProperties Expanded=true
+Minimized=true
+PhotographProperties Expanded=true
+RestoreSize=-1
+RightsProperties Expanded=true
+TagsProperties Expanded=true
+VideoProperties Expanded=true
+
+[LightTable Settings][Right Sidebar][Captions Tags Properties Tab]
+Contact Expanded=true
+ItemDescEdit Tab=0
+ItemDescEditTab CaptionsLang=x-default
+ItemDescEditTab SearchBarCaseSensitive=0
+ItemDescEditTab TagCheckViewCurrentIndex=
+ItemDescEditTab TagCheckViewExpansion=0
+ItemDescEditTab TagCheckViewRestoreChecked=false
+ItemDescEditTab TagCheckViewSelection=
+ItemDescEditTab TagCheckViewSortColumn=0
+ItemDescEditTab TagCheckViewSortOrder=0
+ItemDescEditTab TagCheckViewToggle Auto Tags=0
+ItemDescEditTab TitleLang=x-default
+Location Expanded=true
+Rights Expanded=true
+Subjects Expanded=true
+
+[LightTable Settings][Right Sidebar][Color Properties Tab]
+Current ICC Item=
+Histogram Channel=0
+Histogram Scale=1
+ICC Level=2
+ImagePropertiesColors Tab=0
+
+[LightTable Settings][Right Sidebar][GPS Properties Tab]
+Sort Order=0
+Web GPS Locator=0
+
+[LightTable Settings][Right Sidebar][GPS Properties Tab][Map Widget]
+Backend=marble
+Center=geo:0,0
+GoogleMaps Map Type=ROADMAP
+GoogleMaps Show Map Type Control=true
+GoogleMaps Show Navigation Control=true
+GoogleMaps Show Scale Control=true
+Marble Map Theme=earth/openstreetmap/openstreetmap.dgml
+Marble Projection=spherical
+Marble Show Compass=false
+Marble Show Navigation=true
+Marble Show Overview Map=false
+Marble Show Scale Bar=false
+Marker Grouping Radius=1
+Mouse Mode=0
+Preview Grouped Items=true
+Preview Single Items=true
+Show Thumbnails=true
+Show numbers on items=true
+Sticky Mode State=false
+Thumbnail Grouping Radius=30
+Thumbnail Size=60
+Zoom=marble:900
+
+[LightTable Settings][Right Sidebar][Metadata Properties Tab]
+Current EXIF Item=
+Current ExifTool Item=
+Current IPTC Item=
+Current MAKERNOTE Item=
+Current XMP Item=
+EXIF Level=0
+EXIFTOOL Level=0
+IPTC Level=0
+ImagePropertiesMetaData Tab=0
+MAKERNOTE Level=0
+XMP Level=0
+
+[LightTable Settings][Right Sidebar][Version Properties Tab]
+Version Properties Tab=versions
+Version Properties View Mode=2
+
+[Metadata Settings]
+Album Date Source=1
+Custom Sidecar Extensions=
+EXIF Rotate=true
+EXIF Set Orientation=true
+ExifTool Path=
+Metadata Writing Mode=0
+Read Metadata From Files With ExifTool=false
+Rescan File If Modified=false
+Rotate By Internal Flag=true
+Rotate By Metadata Flag=true
+Rotate Contents Lossless=true
+Rotate Contents Lossy=false
+Save Color Label=false
+Save Date Time=false
+Save EXIF Comments=false
+Save FaceTags=false
+Save Pick Label=false
+Save Position=false
+Save Rating=false
+Save Tags=false
+Save Template=false
+Update File Timestamp=true
+Use Compatible File Name=false
+Use Fast Scan At Startup=false
+Use Lazy Synchronization=false
+Use XMP Sidecar For Reading=false
+Write Metadata To DNG Files=false
+Write Metadata To Files With ExifTool=false
+Write Metadata To RAW Files=false
+
+[Tags Manager List]
+Items=
+
+[Versioning Settings]
+Auto-Save When Closing Editor=false
+Non-Destructive Editing Enabled=true
+Save Intermediate After Each Session=false
+Save Intermediate After Raw Conversion=false
+Save Intermediate When Not Reproducible=false
+Saving Format for Versions=JPG
+Show Intermediates in View=true
+Show Original in View=true

@@ -1,0 +1,86 @@
+;; Powerline Arrows
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/left1]
+type = custom/text
+content-background = ${color.background}
+content-foreground = ${color.background}
+content = ""
+content-font = 6
+
+[module/left2]
+type = custom/text
+content-background = ${color.black}
+content-foreground = ${color.blue}
+content = ""
+content-font = 6
+
+[module/left3]
+type = custom/text
+content-background = ${color.grey}
+content-foreground = ${color.white}
+content = ""
+content-font = 6
+
+#+++++++++++++++++++++++++++++++++++++++
+
+[module/right1]
+type = custom/text
+content-background = ${color.white}
+content-foreground = ${color.black}
+content = ""
+content-font = 6
+
+
+[module/right2]
+type = custom/text
+content-background = ${color.grey}
+content-foreground = ${color.white}
+content = ""
+content-font = 6
+
+
+[module/right3]
+type = custom/text
+content-background = ${color.black}
+content-foreground = ${color.grey}
+content = ""
+content-font = 6
+
+[module/right4]
+type = custom/text
+content-background = ${color.red}
+content-foreground = ${color.black}
+content = ""
+content-font = 6
+
+[module/right5]
+type = custom/text
+content-background = ${color.yellow}
+content-foreground = ${color.red}
+content = ""
+content-font = 6
+
+[module/right6]
+type = custom/text
+content-background = ${color.black}
+content-foreground = ${color.yellow}
+content = ""
+content-font = 6
+
+[module/right7]
+type = custom/text
+content-background = ${color.green}
+content-foreground = ${color.black}
+content = ""
+content-font = 6
+
+[module/right8]
+type = custom/text
+content-background = ${color.black}
+content-foreground = ${color.green}
+content = ""
+content-font = 6
+
+; vim:ft=dosini
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_

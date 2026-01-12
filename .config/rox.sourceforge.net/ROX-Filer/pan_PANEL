@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<panel side="Top">
+  <options style="2" width="32" avoid="1" xinerama="0" monitor="0"/>
+  <start>
+    <icon label="Applications">/usr/share/applications</icon>
+    <icon label="Control Centre">/usr/share/applications/antiXCC.desktop</icon>
+    <icon label="File Manager">/usr/share/applications/file-manager.desktop</icon>
+    <icon label="Browser">/usr/share/applications/web-browser.desktop</icon>
+  </start>
+  <end>
+    <icon label="Logout">/usr/share/applications/desktop-session-exit.desktop</icon>
+  </end>
+</panel>
