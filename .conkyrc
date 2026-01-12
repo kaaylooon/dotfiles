@@ -1,0 +1,54 @@
+short_units yes
+out_to_console no
+
+# Fonte e Xft
+use_xft yes
+xftfont DejaVu Sans:bold:size=30
+
+# Janela própria transparente
+own_window_type= override
+own_window_transparent= true
+own_window_argb_visual= true
+own_window_argb_value= 165
+
+# Transparência do texto
+xftalpha 0.8
+
+# Atualização em segundos
+update_interval 1
+double_buffer yes
+
+# Tamanho máximo da área de texto
+maximum_height 10
+maximum_width 500
+
+# Bordas e cores
+draw_borders no
+draw_shades no
+draw_outline no
+stippled_borders 0
+border_margin 5
+border_inner_margin 0
+border_width 0.2
+xinerama_head=1
+
+default_color a9b1d6
+
+color1 7aa2f7   # primary (hora)
+color2 565f89   # disabled / separador
+color3 a9b1d6   # foreground
+
+
+# Alinhamento e posição
+alignment top_right
+gap_x 720
+gap_y 150
+
+# Monitor específico
+xinerama_head 1
+
+# Minimiza espaços extras
+no_buffers yes
+
+TEXT
+${font DejaVu Sans:bold:size=35}${color1}${time %H}${color1}:${color1}${time %M}${color3}
