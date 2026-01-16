@@ -1,0 +1,115 @@
+########################################################################
+#Sample icewm keys for antiX.
+########################################################################
+
+#Multimedia keys
+
+key "XF86AudioLowerVolume"	amixer sset Master 5%-
+key "XF86AudioRaiseVolume"	amixer sset Master 5%+
+key "XF86AudioMute"		amixer sset Master toggle
+key "XF86AudioPlay"		xmms --play-pause
+key "XF86AudioStop"		xmms --stop
+key "XF86AudioPrev"		xmms --rew
+key "XF86AudioNext"		xmms --fwd
+key "XF86AudioRecord"	simplescreenrecorder 
+key "XF86HomePage"		desktop-defaults-run -b --new-window
+key "XF86Search"		desktop-defaults-run -b http://www.duckduckgo.com
+key "XF86Eject"			unplugdrive.sh
+key "XF86Calculator"	/bin/sh -c "galculator || gnome-calculator || xcalc || ( type bc >/dev/null 2>&1 && xterm -e bc -l)"
+key "XF86Mail"			desktop-defaults-run -e
+
+########################################################################
+
+#Brightness keys
+
+key "XF86MonBrightnessDown" backlight-brightness -5
+key "XF86MonBrightnessUp"   backlight-brightness +5
+
+########################################################################
+
+# Wingrid on Ctrl+ 1 thru 0 on number row
+
+key "Alt+Ctrl+1" wingrid-left.sh
+key "Alt+Ctrl+2" wingrid-right.sh
+key "Alt+Ctrl+3" wingrid-top.sh
+key "Alt+Ctrl+4" wingrid-bottom.sh
+key "Alt+Ctrl+5" wingrid-topleft.sh
+key "Alt+Ctrl+6" wingrid-topright.sh
+key "Alt+Ctrl+7" wingrid-bottomleft.sh
+key "Alt+Ctrl+8" wingrid-bottomright.sh
+key "Alt+Ctrl+9" wingrid-maximize.sh
+key "Alt+Ctrl+0" wingrid-close.sh
+key "Alt+Ctrl+minus" wingrid-shrink.sh
+key "Alt+Ctrl+equal" wingrid-grow.sh
+key "Alt+Ctrl+plus" wingrid-grow.sh
+key "Alt+Ctrl+grave" wingrid-center.sh
+
+########################################################################
+
+# Wingrid on Ctrl + KP
+
+key "Ctrl+Shift+KP_Left" wingrid-left.sh # Left-Move window to Left 
+key "Ctrl+Shift+KP_Right" wingrid-right.sh # Right-Move window to Right 
+
+key "Ctrl+Shift+KP_Up" wingrid-top.sh # Up-Move window Top 
+key "Ctrl+Shift+KP_Down" wingrid-bottom.sh # Down-Move window to Bottom 
+key "Ctrl+Shift+KP_Home" wingrid-topleft.sh # Home-Move window to Top Left 
+key "Ctrl+Shift+KP_Prior" wingrid-topright.sh # PgUp-Move window Top Right 
+key "Ctrl+Shift+KP_End" wingrid-bottomleft.sh # End-Move window to Bottom Left 
+key "Ctrl+Shift+KP_Next" wingrid-bottomright.sh # PgDn-Move window to Bottom Right 
+key "Ctrl+Shift+KP_Insert" wingrid-maximize.sh # 0-Maximize window 
+key "Ctrl+Shift+KP_Begin" wingrid-center.sh # 5-Center window
+key "Ctrl+Shift+KP_Delete" wingrid-close.sh # .-Close window
+key "Ctrl+Shift+KP_Add" wingrid-grow.sh # +-Grow window
+key "Ctrl+Shift+KP_Subtract" wingrid-shrink.sh # --Shrink window
+
+########################################################################
+
+key "Ctrl+Alt+e" desktop-defaults-run -e
+key "Ctrl+Alt+t" desktop-defaults-run -tn
+key "Ctrl+Alt+f" desktop-defaults-run -fm
+key "Ctrl+Alt+g" desktop-defaults-run -te
+key "Ctrl+Alt+b" desktop-defaults-run -b
+
+key "Ctrl+Shift+t" desktop-defaults-run -r -t
+key "Ctrl+Shift+f" desktop-defaults-run -r -fm
+key "Ctrl+Shift+g" desktop-defaults-run -r -te
+
+########################################################################
+
+#Set Volume
+
+key "Alt+Ctrl+KP_Divide" ~/.local/bin/volume-active -10%
+key "Alt+Ctrl+KP_Multiply" ~/.local/bin/volume-active +10%
+key "Alt+Ctrl+KP_Insert" pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+########################################################################
+
+key "Print" flameshot gui
+key "Alt+Space" scrot -s
+
+########################################################################
+
+key "Super+h" node $HOME/focus-next/focus-next.js left
+key "Super+j" node $HOME/focus-next/focus-next.js down
+key "Super+k" node $HOME/focus-next/focus-next.js up
+key "Super+l" node $HOME/focus-next/focus-next.js right
+
+########################################################################
+
+key "F1" rofi -show drun -no-lazy-grab
+key "F2" desktop-defaults-run -t
+key "F3" "$HOME/ocr_print.sh"
+
+# --- PDF Management ---
+
+key "Ctrl+Alt+p" desktop-defaults-run -t ./buscar_pdfs.sh
+key "F4" ./abrir_pdfs.sh
+
+key "Ctrl+Shift+A" ~/print_to_anki.sh
+
+key "Alt+Tab+Backspace" rofi -show window -no-lazy-grab
+
+key "Alt+Ctrl+R" icewm --restart
+key "Alt+Ctrl+End" systemctl poweroff
+key "Super+p" icewm-menu-xrandr
