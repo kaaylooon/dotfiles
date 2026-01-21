@@ -86,7 +86,7 @@ key "Alt+Ctrl+KP_Insert" pactl set-sink-mute @DEFAULT_SINK@ toggle
 ########################################################################
 
 key "Print" flameshot gui
-key "Alt+Space" scrot -s
+key "Alt+Space" scrot -s -e 'xclip -selection clipboard -t image/png -i $f'
 
 ########################################################################
 
@@ -97,14 +97,14 @@ key "Super+l" node $HOME/focus-next/focus-next.js right
 
 ########################################################################
 
-key "F1" rofi -show drun -no-lazy-grab
-key "F2" desktop-defaults-run -t
-key "F3" "$HOME/ocr_print.sh"
+key "Alt+F1" rofi -show drun -no-lazy-grab
+key "Alt+F2" desktop-defaults-run -t
+key "Alt+F3" "$HOME/ocr_print.sh"
 
 # --- PDF Management ---
 
 key "Ctrl+Alt+p" desktop-defaults-run -t ./buscar_pdfs.sh
-key "F4" ./abrir_pdfs.sh
+key "Ctrl+Alt+o" ./abrir_pdfs.sh
 
 key "Ctrl+Shift+A" ~/print_to_anki.sh
 
