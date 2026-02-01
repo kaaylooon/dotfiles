@@ -1,0 +1,41 @@
+prog "Rofi" /usr/share/icons/papirus-antix/24x24/actions/bookmark-new-list.png rofi -show drun -show-icons
+prog "Terminal" /usr/share/icons/papirus-antix/48x48/apps/terminal.png desktop-defaults-run -t
+menufile "Applications" /usr/share/icons/papirus-antix/48x48/apps/applications.png menu-applications
+
+separator
+
+prog "File Manager" /usr/share/icons/papirus-antix/48x48/apps/file-manager.png desktop-defaults-run -fm
+prog "Web Browser" /usr/share/icons/papirus-antix/48x48/apps/web-browser.png desktop-defaults-run -b
+prog "Editor" /usr/share/icons/papirus-antix/48x48/apps/text-editor.png desktop-defaults-run -te
+prog "PDF" /usr/share/icons/papirus-antix/48x48/apps/qpdfview.png qpdfview
+
+separator
+
+
+prog "Telegram" /usr/share/icons/hicolor/128x128/apps/telegram.png telegram-desktop
+prog "Sublime Text" /usr/share/icons/hicolor/128x128/apps/sublime-text.png subl
+
+separator
+separator
+
+#menufile "Personal" /usr/share/icons/papirus-antix/48x48/apps/preferences-desktop-user.png personal
+menuprog "Recent Files" /usr/share/icons/papirus-antix/48x48/places/folder-recent.png /usr/local/bin/icewm-menu-recentfiles.sh
+
+separator
+
+prog "App Killer" /usr/share/icons/papirus-antix/48x48/apps/appkill.png xkill
+prog "Refresh Menu" /usr/share/icons/papirus-antix/48x48/apps/update-manager.png desktop-menu --write-out-global
+
+menu "Desktop" /usr/share/icons/papirus-antix/48x48/apps/user-desktop.png {
+    menufile "Other Desktops" /usr/share/icons/papirus-antix/48x48/apps/user-desktop.png /usr/share/desktop-session/wm-menus/icewm-wm-menu
+#    separator
+#    menuprog "Desktop Folder" /usr/share/icons/papirus-antix/48x48/places/desktop.png /usr/local/bin/icewm-menu-Desktop.sh
+#    separator
+#    prog "RoxPanel on/off" /usr/share/icons/papirus-antix/48x48/apps/rox-panel.png paneltoggle.sh
+#    prog "Conky on/off" /usr/share/icons/papirus-antix/48x48/apps/conky-on-off.png conkytoggle.sh
+#	
+		
+	prog "Control Centre" /usr/share/icons/papirus-antix/48x48/apps/control-center2.png antixcc.sh
+	prog "IceWM Toolbar Icon Manager" /usr/share/icons/papirus-antix/48x48/categories/icewm_editor.png /usr/local/bin/icewm-toolbar-icon-manager
+	prog "IceWM Manager" "/usr/share/icons/papirus-antix/48x48/categories/icewmcc.png" /usr/local/bin/icewm-manager-gui
+}

@@ -1,9 +1,19 @@
-#!/bin/bash
-FILE=/tmp/screenshot.png
-[ -f $FILE ] && rm $FILE          # remove se já existe
-scrot -s $FILE
-tesseract $FILE /tmp/output -l por
-xclip -sel clip < /tmp/output.txt
-cat /tmp/output.txt
-echo "Texto copiado para clipboard!"
+#!/usr/bin/env bash
 
+LANG=${1:-por}   # por padrão português
+IMG=/tmp/ocr.png
+OUT=/tmp/ocr
+
+rm -f "$IMG" "$OUT.txt"
+
+scrot -s "$IMG" || exit 1
+
+tesseract "$IMG" "$OUT" -l "$LANG" --dpi 300 2>/dev/null
+
+if [ ! -s "$OUT.txt" ]; then
+    notify-send "OCR" "Falha no reconhecimento"
+    exit 1
+fi
+
+xclip -selection clipboard < "$OUT.txt"
+notify-send "OCR ($LANG)" "Texto copiado"
