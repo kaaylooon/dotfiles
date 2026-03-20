@@ -1,7 +1,6 @@
 ShowTaskBar=0
 TitleBarHeight=0
 CenterLarge=1
-
 AltTabRecent=1
 AltTabRaiseFirst=1
 AltTabShowIcons=2plank
@@ -15,7 +14,9 @@ TaskBarShowClock=1
 TaskBarClockLeds=0
 TaskBarWidthPercent=50
 TaskBarJustify=center
+
 TitleBarHeight=0
+
 TaskBarShowNetStatus=1
 TaskBarShowMEMStatus=1
 TaskBarShowCPUStatus=1
@@ -32,12 +33,51 @@ AutoHideDelay=10 # [0-5000]
 AutoShowDelay=100 # [0-5000]
 TaskBarDoubleHeight=0
 # Espaço entre a janela e a borda da tela
-EdgeSnap=10
+EdgeSnap=0
 # Espaço entre janelas
-SnapDistance=10
+SnapDistance=0
 SmartPlacement=1
 MoveMouseOnStart=1
 OpaqueMove=1
 OpaqueResize=1
 
 TaskBarShowWindowTitles=0
+
+FocusOnAppRaise=1
+FocusOnAppStart=1
+
+KeySysArrange="Super+a"
+
+KeyWinClose="Super+q"
+KeyWinMinimize="Super+n"
+KeyWinMaximize="Super+m"
+KeyWinRestore="Super+r"
+
+KeyWinNext="Super+Tab"
+
+KeySysWorkspace1="Super+1"
+KeySysWorkspace2="Super+2"
+KeySysWorkspace3="Super+3"
+
+KeySysWorkspace1TakeWin="Super+Shift+1"
+KeySysWorkspace2TakeWin="Super+Shift+2"
+d
+KeyWinTileBottom="Super+j"
+KeyWinTileTop="Super+k"
+KeyWinTileRight="Super+l"
+KeyWinTileLeft="Super+h"
+
+KeyWinArrangeN="Super+Up"
+KeyWinArrangeS="Super+Down"
+KeyWinArrangeE="Super+Right"
+KeyWinArrangeW="Super+Left"
+
+KeyWinArrangeNE="Super+Prior"
+KeyWinArrangeNW="Super+Home"
+KeyWinArrangeSE="Super+Next"
+KeyWinArrangeSW="Super+End"
+
+KeySysShowDesktop="Super+d"
+
+KeySysTileVertical="Super+v"
+KeySysTileHorizontal="Super+b"

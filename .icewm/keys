@@ -19,16 +19,6 @@ key "XF86Mail"			desktop-defaults-run -e
 key "XF86MonBrightnessDown" backlight-brightness -5
 key "XF86MonBrightnessUp"   backlight-brightness +5
 
-########################################################################
-
-key "Super+q" wingrid-close.sh
-key "Super+m" wingrid-maximize.sh
-key "Super+minus" wingrid-shrink.sh
-key "Super+equal" wingrid-grow.sh
-key "Super+plus" wingrid-grow.sh
-
-###############h#########################################################
-
 key "Ctrl+Alt+e" desktop-defaults-run -e
 key "Ctrl+Alt+t" desktop-defaults-run -tn
 key "Ctrl+Alt+f" desktop-defaults-run -fm
@@ -48,24 +38,28 @@ key "Alt+m" pactl set-sink-mute @DEFAULT_SINK@ toggle
 ########################################################################
 
 key "Alt+Space" scrot -s /tmp/scrot.png -e 'xclip -selection clipboard -t image/png -i $f'
-key "Print" scrot -s -e 'xclip -selection clipboard -t image/png -i $f'
-key "Ctrl+Print" flameshot gui
+key "Ctrl+Print" scrot -s -e 'xclip -selection clipboard -t image/png -i $f'
+key "Print" flameshot gui
 
 ########################################################################
 
-key "F1" rofi -show drun
-key "F2" desktop-defaults-run -t
+key "F1" ~/.config/rofi/launchers/type-6/launcher.sh
+key "F2" ~/abrir_pdfs.sh 
+key "F3" desktop-defaults-run -t ~/buscar_pdfs.sh
+
+key "Super+x" xkill
 
 key "Alt+z" ./en_dict.sh
 key "Alt+x" ./ocr_print.sh
 key "Alt+c" ./cn_dict.sh
 key "Alt+v" ./ocr_print.sh chi_sim
 
-key "Ctrl+p" desktop-defaults-run -t ./buscar_pdfs.sh
-key "Ctrl+o" ./abrir_pdfs.sh 
-key "Ctrl+i" ~/print_to_anki.sh
+key "Ctrl+t" roxterm
+key "Ctrl+Alt+n" kitty nvim
 
-key "Alt+Ctrl+" ./wacom_display.sh
-key "Alt+Ctrl+r" icewm --restart
-key "Alt+Ctrl+End" systemctl poweroff
-key "Super+p" icewm-menu-xrandr
+#key "Ctrl+z" ~/print_to_anki.sh
+key "Ctrl+Alt+i" xcalib -i -a
+key "Ctrl+Alt+z" ./wacom_display.sh
+key "Ctrl+Alt+r" icewm --restart
+key "Ctrl+Alt+End" systemctl poweroff
+key "Ctrl+Alt+p" ~/polybar-toggle.sh

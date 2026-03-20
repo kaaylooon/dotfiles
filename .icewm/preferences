@@ -8,13 +8,13 @@
 # ClickToFocus=1 # 0/1
 
 #  Focus windows when application requests to raise
-# FocusOnAppRaise=0 # 0/1
+FocusOnAppRaise=1 # 0/1
 
 #  Request focus (flashing in taskbar) when application requests raise
 # RequestFocusOnAppRaise=1 # 0/1
 
 #  Raise windows when focused
-# RaiseOnFocus=1 # 0/1
+RaiseOnFocus=1 # 0/1
 
 #  Focus window when client area clicked
 # FocusOnClickClient=1 # 0/1
@@ -80,10 +80,10 @@
 # ConsiderSizeHintsMaximized=1 # 0/1
 
 #  Center maximized windows which can't fit the screen (like terminals)
-# CenterMaximizedWindows=0 # 0/1
+CenterMaximizedWindows=1 # 0/1
 
 #  Hide window borders if window is maximized
-# HideBordersMaximized=0 # 0/1
+HideBordersMaximized=1 # 0/1
 
 #  Maximized windows can be resized
 # SizeMaximized=1 # 0/1
@@ -92,7 +92,7 @@
 ShowMoveSizeStatus=1 # 0/1
 
 #  Show name of current workspace while switching
-# ShowWorkspaceStatus=1 # 0/1
+ShowWorkspaceStatus=0 # 0/1
 
 #  Display mini-icons on desktop for minimized windows
 # MinimizeToDesktop=0 # 0/1
@@ -134,10 +134,10 @@ OpaqueResize=1 # 0/1
 MenuMouseTracking=1 # 0/1
 
 #  Auto raise windows after delay
-# AutoRaise=0 # 0/1
+AutoRaise=0 # 0/1
 
 #  Delay pointer focusing when mouse moves
-# DelayPointerFocus=1 # 0/1
+DelayPointerFocus=0 # 0/1
 
 #  Support win95 keyboard keys (Penguin/Meta/Win_L,R shows menu)
 Win95Keys=1 # 0/1
@@ -344,7 +344,7 @@ TaskBarUseMouseWheel=1 # 0/1
 # PagerShowMinimized=1 # 0/1
 
 #  Draw border around workspace buttons (if PagerShowPreview=1)
-# PagerShowBorders=1 # 0/1
+PagerShowBorders=1 # 0/1
 
 #  Show workspace name label on workspace button (if PagerShowPreview=1)
 # PagerShowLabels=1 # 0/1
@@ -664,7 +664,7 @@ DateFormat="%c"
 #  Mouse binding to lower window
 # MouseWinLower="Ctrl+Alt+Pointer_Button1"
 
-# KeyWinRaise="Alt+F1"
+KeyWinRaise="Super+."
 
 # KeyWinOccupyAll="Alt+F2"
 
@@ -676,15 +676,15 @@ DateFormat="%c"
 
 # KeyWinPrev="Alt+Shift+F6"
 
-# KeyWinNext="Alt+F6"
+KeyWinNext="Super+d"
 
 # KeyWinMove="Alt+F7"
 
 # KeyWinSize="Alt+F8"
 
-# KeyWinMinimize="Alt+F9"
+KeyWinMinimize="Super+n"
 
-# KeyWinMaximize="Alt+F10"
+KeyWinMaximize="Super+m"
 
 KeyWinMaximizeVert="Alt+Ctrl+Up"
 
@@ -723,7 +723,7 @@ KeyWinArrangeSE="Alt+Ctrl+KP_Next" # PgDn-Move window to Bottom Right
 KeyWinArrangeS="Alt+Ctrl+KP_Down" # Down-Move window to Bottom 
 KeyWinArrangeSW="Alt+Ctrl+KP_End" # End-Move window to Bottom Left 
 KeyWinArrangeW="Alt+Ctrl+KP_Left" # Left-Move window to Left 
-KeyWinArrangeNW="Alt+Ctrl+KP_Home" # Home-Move window to Top Left 
+KeyWinArrangeNW="Alt+Ctrl+KP_Home" # Home-Move window to Top Left
 KeyWinArrangeC="Super+c"
 
 KeySysSwitchNext="Alt+Tab"
@@ -760,9 +760,9 @@ KeySysWindowList="Alt+Ctrl+Esc"
 
 KeySysAddressBar="Alt+Ctrl+Space"
 
-KeySysWorkspacePrev="Alt+Ctrl+Left"
+KeySysWorkspacePrev="Alt+Ctrl+h"
 
-KeySysWorkspaceNext="Alt+Ctrl+Right"
+KeySysWorkspaceNext="Alt+Ctrl+l"
 
 KeySysWorkspaceLast="Alt+Ctrl+Down"
 
@@ -826,7 +826,7 @@ KeySysTileHorizontal="Alt+Shift+F3"
 
 KeySysCascade="Alt+Shift+F4"
 
-KeySysArrange="Alt+Shift+F5"
+KeySysArrange="Super+a"
 
 KeySysArrangeIcons="Alt+Shift+F8"
 
@@ -1386,13 +1386,16 @@ KeyWinTileLeft="Super+h"
 TaskBarShowWindowTitles=0 # 0/1
 
 #  Let the active window occupy the top left quarter of the screen.
-KeyWinTileTopLeft="Super+1"
+KeyWinTileTopLeft="Super+y"
 
 #  Let the active window occupy the top right quarter of the screen.
-KeyWinTileTopRight="Super+2"
+KeyWinTileTopRight="Super+u"
 
 #  Let the active window occupy the bottom left quarter of the screen.
-KeyWinTileBottomLeft="Super+3"
+KeyWinTileBottomLeft="Super+b"
 
 #  Let the active window occupy the bottom right quarter of the screen.
-KeyWinTileBottomRight="Super+c"
+KeyWinTileBottomRight="Super+n"
+
+#  Smart place the active window.
+KeyWinSmartPlace="Ctrl+Alt+Shift+c"
