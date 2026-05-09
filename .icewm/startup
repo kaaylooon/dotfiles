@@ -1,31 +1,28 @@
 #!/bin/bash
-sleep 1
 
 redshift -c ~/.config/redshift.conf -l manual &
+
+bluetoothd &
 
 xrandr --output eDP-1 --brightness 0.7 &
 xrandr --output HDMI-1 --brightness 0.8 2>/dev/null &
 
-bluetoothd &
-blueman-applet &
-
-xinput set-prop 12 "libinput Accel Profile Enabled" 0, 1 &
-
-#setxkbmap -layout "br,us,jp,cn,gr" -option "grp:alt_shift_toggle" &
-
 if xsetwacom list devices | grep -q "Wacom One"; then
-	xsetwacom --set "Wacom One by Wacom S Pen stylus" MapToOutput eDP-1 &
   xsetwacom --set "Wacom One by Wacom S Pen stylus" rotate half &
 fi
 
+xinput set-prop 12 "libinput Accel Profile Enabled" 0, 1 &
+#setxkbmap -layout "br,cn,gr" -option "grp:alt_shift_toggle" &
 
-[ -x "$HOME/abrir_pdfs.sh" ] && "$HOME/abrir_pdfs.sh" &
+#polybar &
 
-polybar &
-conky &
+anki & 
 
-vpnon &
+#if [ -f ~/.cache/wal/wal ]; then
+#    cwp "$(cat ~/.cache/wal/wal)"
+#else
+#    cwp
+#fi &
 
-if [ ! -f ~/.config/zzzfm/zzzfm_already_localized ]; then
-    zzzfmlocalize
-fi
+# conky &
+# [ -x "$HOME/abrir_pdfs.sh" ] && "$HOME/abrir_pdfs.sh"

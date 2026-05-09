@@ -31,9 +31,9 @@ key "Ctrl+Shift+g" desktop-defaults-run -r -te
 
 ########################################################################
 
-key "Alt+minus" ~/.local/bin/volume-active -10%
-key "Alt+equal" ~/.local/bin/volume-active +10%
-key "Alt+m" pactl set-sink-mute @DEFAULT_SINK@ toggle
+key "Alt+minus" ~/.local/bin/pulseaudio-control --volume-step 10 down
+key "Alt+equal" ~/.local/bin/pulseaudio-control --volume-step 10 up
+key "Alt+m" ~/.local/bin/pulseaudio-control togmute
 
 ########################################################################
 
@@ -43,9 +43,11 @@ key "Print" flameshot gui
 
 ########################################################################
 
-key "F1" ~/.config/rofi/launchers/type-6/launcher.sh
+key "F1"  ~/.config/rofi/launchers/type-1/launcher.sh
+#key "F1" dmenu_run -b
 key "F2" ~/abrir_pdfs.sh 
-key "F3" desktop-defaults-run -t ~/buscar_pdfs.sh
+key "F3" desktop-defaults-run -t ~/buscar_pdfs.sh 
+key "F4" desktop-defaults-run -t qalc
 
 key "Super+x" xkill
 
@@ -54,8 +56,7 @@ key "Alt+x" ./ocr_print.sh
 key "Alt+c" ./cn_dict.sh
 key "Alt+v" ./ocr_print.sh chi_sim
 
-key "Ctrl+t" roxterm
-key "Ctrl+Alt+n" kitty nvim
+key "Ctrl+t" alacritty
 
 #key "Ctrl+z" ~/print_to_anki.sh
 key "Ctrl+Alt+i" xcalib -i -a
