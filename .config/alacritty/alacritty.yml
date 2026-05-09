@@ -1,0 +1,63 @@
+# Configuração Alacritty 0.11.0 (YAML)
+
+# Fontes
+font:
+  size: 13.0
+  normal:
+    family: "JetBrainsMono Nerd Font"
+    style: Regular
+  bold:
+    family: "JetBrainsMono Nerd Font"
+    style: Bold
+  italic:
+    family: "JetBrainsMono Nerd Font"
+    style: "Medium Italic"
+  bold_italic:
+    family: "JetBrainsMono Nerd Font"
+    style: "Bold Italic"
+  offset:
+    y: 1 # Ajuste para o line_height
+
+# Cursor
+cursor:
+  style:
+    shape: Beam
+    blinking: Never
+
+# Scrolling
+scrolling:
+  history: 100000
+
+colors:
+  primary:
+    background: '#07060e'
+    foreground: '#c1c0c2'
+  cursor:
+    text: '#07060e'
+    cursor: '#c1c0c2'
+  selection:
+    text: '#07060e'
+    background: '#5A4B6F'
+  normal:
+    black:   '#07060e'
+    red:     '#4E2A74'
+    green:   '#5A4B6F'
+    yellow:  '#4F148C'
+    blue:    '#6728A4'
+    magenta: '#6E3CAA'
+    cyan:    '#874CBF'
+    white:   '#c1c0c2'
+  bright:
+    black:   '#555569'
+    red:     '#4E2A74'
+    green:   '#5A4B6F'
+    yellow:  '#4F148C'
+    blue:    '#6728A4'
+    magenta: '#6E3CAA'
+    cyan:    '#874CBF'
+    white:   '#c1c0c2'
+
+key_bindings:
+  - { key: C, mods: Control|Shift, action: Copy }
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: Key0, mods: Control|Shift, action: ResetFontSize }
