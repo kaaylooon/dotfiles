@@ -1,0 +1,16 @@
+#!/bin/bash
+WALL_DIR="$HOME/Pictures/Wallpapers"
+
+if [ ! -d "$WALL_DIR" ]; then
+    exit 1
+fi
+
+mapfile -t IMAGES < <(find "$WALL_DIR" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.gif" -o -iname "*.bmp" \))
+
+if [ ${#IMAGES[@]} -eq 0 ]; then
+    exit 1
+fi
+
+RANDOM_IMAGE="${IMAGES[$RANDOM % ${#IMAGES[@]}]}"
+
+wallpaper-changer "$RANDOM_IMAGE"
