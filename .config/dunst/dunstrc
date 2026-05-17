@@ -1,5 +1,5 @@
 [global]
-font = 0xProto Nerd Font Mono 12
+font = Noto Sans Medium 11
 icon_theme = "Vortex-Dark-Icons"
 enable_recursive_icon_lookup = true
 markup = full
@@ -14,7 +14,7 @@ ignore_newline = no
 stack_duplicates = true
 hide_duplicate_count = yes
 origin = top-right
-offset = 20x50
+offset = 10x56
 width = (0,400)
 shrink = no
 idle_threshold = 120
@@ -45,21 +45,21 @@ history = ctrl+grave
 context = ctrl+shift+period
 
 [urgency_low]
-frame_color = "#4E2A74"
-foreground = "#4E2A74"
-background = "#07060e"
+frame_color = "#636C7A"
+foreground = "#636C7A"
+background = "#12101d"
 timeout = 10
 
 [urgency_normal]
-frame_color = "#5A4B6F"
-foreground = "#5A4B6F"
-background = "#07060e"
+frame_color = "#6E7885"
+foreground = "#6E7885"
+background = "#12101d"
 timeout = 10
 
 [urgency_critical]
-frame_color = "#4E2A74"
-foreground = "#07060e"
-background = "#4E2A74"
+frame_color = "#636C7A"
+foreground = "#12101d"
+background = "#636C7A"
 timeout = 10
 
 [notify_send]
