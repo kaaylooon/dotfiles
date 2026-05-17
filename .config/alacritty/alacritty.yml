@@ -1,6 +1,8 @@
-# Configuração Alacritty 0.11.0 (YAML)
+    # Configuração Alacritty 0.11.0 (YAML)
 
-# Fontes
+import:
+  - ~/.config/alacritty/current-theme.yml
+
 font:
   size: 13.0
   normal:
@@ -28,36 +30,11 @@ cursor:
 scrolling:
   history: 100000
 
-colors:
-  primary:
-    background: '#07060e'
-    foreground: '#c1c0c2'
-  cursor:
-    text: '#07060e'
-    cursor: '#c1c0c2'
-  selection:
-    text: '#07060e'
-    background: '#5A4B6F'
-  normal:
-    black:   '#07060e'
-    red:     '#4E2A74'
-    green:   '#5A4B6F'
-    yellow:  '#4F148C'
-    blue:    '#6728A4'
-    magenta: '#6E3CAA'
-    cyan:    '#874CBF'
-    white:   '#c1c0c2'
-  bright:
-    black:   '#555569'
-    red:     '#4E2A74'
-    green:   '#5A4B6F'
-    yellow:  '#4F148C'
-    blue:    '#6728A4'
-    magenta: '#6E3CAA'
-    cyan:    '#874CBF'
-    white:   '#c1c0c2'
-
 key_bindings:
   - { key: C, mods: Control|Shift, action: Copy }
   - { key: V, mods: Control|Shift, action: Paste }
   - { key: Key0, mods: Control|Shift, action: ResetFontSize }
+  - { key: Equals, mods: Control, action: IncreaseFontSize }
+  - { key: Minus, mods: Control, action: DecreaseFontSize }
+  - { key: NumpadAdd, mods: Control, action: IncreaseFontSize }
+  - { key: NumpadSubtract, mods: Control, action: DecreaseFontSize }

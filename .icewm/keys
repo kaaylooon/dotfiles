@@ -20,14 +20,11 @@ key "XF86MonBrightnessDown" backlight-brightness -5
 key "XF86MonBrightnessUp"   backlight-brightness +5
 
 key "Ctrl+Alt+e" desktop-defaults-run -e
-key "Ctrl+Alt+t" desktop-defaults-run -tn
-key "Ctrl+Alt+f" desktop-defaults-run -fm
 key "Ctrl+Alt+g" desktop-defaults-run -te
 key "Ctrl+Alt+b" desktop-defaults-run -b
 
-key "Ctrl+Shift+t" desktop-defaults-run -r -t
-key "Ctrl+Shift+f" desktop-defaults-run -r -fm
-key "Ctrl+Shift+g" desktop-defaults-run -r -te
+key "Super+t" desktop-defaults-run -t
+key "Super+f" desktop-defaults-run -t /home/kaylon/go/bin/lf
 
 ########################################################################
 
@@ -43,24 +40,21 @@ key "Print" flameshot gui
 
 ########################################################################
 
-key "F1"  ~/.config/rofi/launchers/type-1/launcher.sh
 #key "F1" dmenu_run -b
+
+key "F1"  ~/.config/rofi/launchers/type-1/launcher.sh
 key "F2" ~/abrir_pdfs.sh 
 key "F3" desktop-defaults-run -t ~/buscar_pdfs.sh 
 key "F4" desktop-defaults-run -t qalc
 
-key "Super+x" xkill
+key "Alt+z" ~/en_dict.sh
+key "Alt+x" ~/ocr_print.sh
+key "Alt+c" ~/cn_dict.sh
+key "Alt+v" ~/ocr_print.sh chi_sim
 
-key "Alt+z" ./en_dict.sh
-key "Alt+x" ./ocr_print.sh
-key "Alt+c" ./cn_dict.sh
-key "Alt+v" ./ocr_print.sh chi_sim
-
-key "Ctrl+t" alacritty
-
-#key "Ctrl+z" ~/print_to_anki.sh
 key "Ctrl+Alt+i" xcalib -i -a
-key "Ctrl+Alt+z" ./wacom_display.sh
+key "Ctrl+Alt+z" ~/wacom_display.sh
+key "Ctrl+Alt+p" ~/polybar-toggle.sh
 key "Ctrl+Alt+r" icewm --restart
 key "Ctrl+Alt+End" systemctl poweroff
-key "Ctrl+Alt+p" ~/polybar-toggle.sh
+#key "Ctrl+z" ~/print_to_anki.sh
